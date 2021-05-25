@@ -16,6 +16,10 @@
 		185DFAAE2636979B0051E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAAC2636979B0051E8A5 /* LaunchScreen.storyboard */; };
 		185DFAB12636979B0051E8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAB02636979B0051E8A5 /* main.m */; };
 		185DFB1F263904730051E8A5 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 185DFB1E263904730051E8A5 /* readme.md */; };
+		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
+		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
+		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
+		18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F5052657D35D006F56F4 /* ViewControllerDemo1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,12 @@
 		185DFAAF2636979B0051E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185DFAB02636979B0051E8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185DFB1E263904730051E8A5 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
+		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
+		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
+		18F6F5032657D35D006F56F4 /* ViewControllerDemo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo1.h; sourceTree = "<group>"; };
+		18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo1.m; sourceTree = "<group>"; };
+		18F6F5052657D35D006F56F4 /* ViewControllerDemo1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllerDemo1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 		185DFA9D2636979A0051E8A5 /* ios-app-demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				18F6F4D82653E16C006F56F4 /* demo1 */,
 				185DFB1C263904420051E8A5 /* vc1 */,
 				185DFA9E2636979A0051E8A5 /* AppDelegate.h */,
 				185DFA9F2636979A0051E8A5 /* AppDelegate.m */,
@@ -85,6 +96,9 @@
 			children = (
 				185DFAA42636979A0051E8A5 /* ViewController.h */,
 				185DFAA52636979A0051E8A5 /* ViewController.m */,
+				18F6F5032657D35D006F56F4 /* ViewControllerDemo1.h */,
+				18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */,
+				18F6F5052657D35D006F56F4 /* ViewControllerDemo1.xib */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -94,8 +108,18 @@
 			children = (
 				185DFB1E263904730051E8A5 /* readme.md */,
 				180ACFDE2643C77E00319B95 /* readme-1.md */,
+				18F6F4F52657A886006F56F4 /* xcode.md */,
 			);
 			path = doc;
+			sourceTree = "<group>";
+		};
+		18F6F4D82653E16C006F56F4 /* demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				18F6F4D92653E196006F56F4 /* CPP_Demo.h */,
+				18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */,
+			);
+			path = demo1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +180,10 @@
 			files = (
 				185DFAAE2636979B0051E8A5 /* LaunchScreen.storyboard in Resources */,
 				185DFAAB2636979B0051E8A5 /* Assets.xcassets in Resources */,
+				18F6F4F62657A886006F56F4 /* xcode.md in Resources */,
 				185DFB1F263904730051E8A5 /* readme.md in Resources */,
 				185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */,
+				18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */,
 				180ACFDF2643C77E00319B95 /* readme-1.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,8 +197,10 @@
 			files = (
 				185DFAA62636979A0051E8A5 /* ViewController.m in Sources */,
 				185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */,
+				18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */,
 				185DFAB12636979B0051E8A5 /* main.m in Sources */,
 				185DFAA32636979A0051E8A5 /* SceneDelegate.m in Sources */,
+				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

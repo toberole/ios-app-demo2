@@ -1,4 +1,5 @@
 #import "ViewController.h"
+#import "CPP_Demo.h"
 
 @interface ViewController ()
 
@@ -14,6 +15,9 @@
     [self.btn1 addTarget:self action:@selector(btn1_clicked) forControlEvents:UIControlEventTouchUpInside];
     
     [self test1];
+    
+    CPP_Demo *demo = [[CPP_Demo alloc]init];
+    [demo test];
 }
 
 -(void)test1{

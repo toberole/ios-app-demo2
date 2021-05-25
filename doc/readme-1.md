@@ -16,3 +16,34 @@ image lookup -a 0x00000001009a9f3a
 image lookup -name 查找方法来源
 
 image lookup –type 查看成员
+
+IOS瘦身之armv7 armv7s arm64选用
+xcode创建工程默认支持的指令集有下列三种
+>armv7
+  iPhone4
+  iPhone4S
+>armv7s
+  iPhone5
+  iPhone5C
+>arm64
+  iPhone5S(以上)
+
+如果全部支持切不在乎包大小的话,Architecture的值选择：armv7 armv7s arm64
+
+如果支持5以上切包不要求则选用 armv7s ,arm64
+
+如果支持全机型,有不想ipa包太多就选择 armv7 , arm64
+
+如果最小ipa的话,且抛弃5s以下,可以采用只用arm64
+
+PS:选arm64时需要最低支持5.1.1:
+
+1，如果想自己的app在各个机器都能够最高效率的运行，则需要将Build Active Architecture Only改为NO,Valid architectures选择对应的指令集：armv7 armv7s arm64。这个会为各个指令集编译对应的代码，因此最后的 ipa体积基本翻了3倍,Release版本必须NO。
+
+2，如果想让app体积保持最小，则现阶段应该选择Valid architectures为armv64,这样Build Active Architecture Only选YES或NO就无所谓了
+
+
+
+
+
+
