@@ -1,0 +1,5 @@
+控制器组合
+控制器分为：内容型控制器和容器型控制器。
+常见的容器型控制器有UINavigationController和UITabBarController.
+容器型控制器的现实会把多个子控制器view组合起来现实，用户看到的其实是多个控制器的样式组合的结果。
+

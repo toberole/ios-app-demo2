@@ -1,0 +1,1 @@
+I tried to paste UIMainStoryboardFile blankly, and it worked like a miracle. I found the cause until previewing codes diff when committing. 
