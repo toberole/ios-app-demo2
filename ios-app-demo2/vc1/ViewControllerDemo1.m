@@ -11,6 +11,15 @@
     
     UIButton*btn = [self.view viewWithTag:1];
     [btn addTarget:self action:@selector(btn_clicked) forControlEvents:UIControlEventTouchUpInside];
+    
+    CALayer*layer = [CALayer layer];
+    layer.frame = CGRectMake(140, 100, 100, 100);
+    layer.backgroundColor = [UIColor yellowColor].CGColor;
+    layer.borderColor = [UIColor redColor].CGColor;
+    layer.borderWidth = 4.0;
+    layer.cornerRadius = 2.0;
+ 
+    [self.view.layer addSublayer:layer];
 }
 
 -(void)btn_clicked{

@@ -3,3 +3,11 @@
 常见的容器型控制器有UINavigationController和UITabBarController.
 容器型控制器的现实会把多个子控制器view组合起来现实，用户看到的其实是多个控制器的样式组合的结果。
 
+沙盒
+默认情况下，每个应用的沙盒包含三个文件夹：Documents、Library、tmp
+使用iTunes与iPhone同步时，会备份所有的Documents和Library文件。
+Documents：苹果建议将程序中建立的或在程序中浏览到的文件数据保存在该目录下，iTunes备份和恢复的时候会包括此目录。
+Library：存储程序的默认设置或其他状态信息，其中又包含了Caches文件夹和Preferences文件夹。
+Library/Caches：存放缓存文件，iTunes不会备份此目录，但此目录下文件在应用退出时不会被删除。
+Library/Preferences：存放偏好设置的plist文件。
+tmp：提供一个即时创建临时文件的地方。

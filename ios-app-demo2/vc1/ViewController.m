@@ -4,10 +4,13 @@
 #import "Person.h"
 #import "Person+Student.h"
 #import "ViewControllerDemo1.h"
+#import <sqlite3.h>
 
 @interface ViewController ()
 
 @property(nonatomic,strong)UIButton*btn1;
+
+@property(nonatomic,assign)sqlite3*db;
 
 // blcok 属性
 @property(copy,nonatomic)void(^t_b)(int,int);
@@ -33,11 +36,78 @@
     btn = [self.view  viewWithTag:4];
     [btn addTarget:self action:@selector(gcd_2) forControlEvents:UIControlEventTouchUpInside];
     
+    btn = [self.view viewWithTag:5];
+    [btn addTarget:self action:@selector(gcd_3) forControlEvents:UIControlEventTouchUpInside];
+    
+    btn = [self.view viewWithTag:6];
+    [btn addTarget:self action:@selector(btn_sandbox) forControlEvents:UIControlEventTouchUpInside];
+    
+    btn = [self.view viewWithTag:7];
+    [btn addTarget:self action:@selector(btn_sqlite) forControlEvents:UIControlEventTouchUpInside];
+    
     
 //    [self test1];
 //
 //    CPP_Demo *demo = [[CPP_Demo alloc]init];
 //    [demo test];
+}
+
+/**
+ sqlite
+ fmdb
+ core data[对象—关系映射（ORM）]
+ */
+-(void)btn_sqlite{
+    
+}
+
+-(void)btn_sandbox{
+    // 获取沙盒路径
+    NSString*path = NSHomeDirectory();
+    NSLog(@"HomeDirectory: %@",path);
+    
+    // 获取Documents文件夹
+    NSArray*documentsArr = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString*documentsPath = [documentsArr objectAtIndex:0];
+    NSLog(@"documentsPath: %@",documentsPath);
+    
+    // 获取Library文件夹
+    NSArray*librarysArr = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,NSUserDomainMask, YES);
+    NSString*libraryPath = [librarysArr objectAtIndex:0];
+    NSLog(@"libraryPath: %@",libraryPath);
+    
+}
+
+/**
+ 队列与任务组合
+ 1、异步任务+并行队列
+    把异步任务放到并列队列进行执行，异步任务会在不同拍的线程中执行。
+ 
+ 2、异步任务+串行队列
+    异步任务放在串行队列中执行，任务只会在一个新开的线程中，按照顺序执行。
+ 
+ 3、异步任务+主队列
+    把异步任务放在主队列中执行，由于主队列是一个特殊的串行队列，因此任务是串行执行的，但由于主队列对应的序号为1的线程，因此，即便是异步任务，也不会再创建新的线程。
+ 
+ 4、同步任务+并行队列
+    同步任务的执行是在当前线程中完成的，因此，即便是把同步任务放在并行队列中执行，由于只有1个线程，任务也是一个一个按顺序执行（串行执行）的。
+ 
+ 5、同步任务+串行队列
+    同步任务放在串行队列中执行，任务会在当前线程依次执行
+ 
+ 6、同步任务+主队列【错误组合】
+    这种情况下，主线程会被阻塞，程序会挂死，不能使用。
+ */
+
+-(void)gcd_3{
+    dispatch_queue_main_t q = dispatch_get_main_queue();
+    dispatch_async(q, ^{
+        NSLog(@"1 thread: %@",[NSThread currentThread]);
+    });
+    
+    dispatch_async(q, ^{
+        NSLog(@"2 thread: %@",[NSThread currentThread]);
+    });
 }
 
 -(void)gcd_2{
