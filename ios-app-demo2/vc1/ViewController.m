@@ -8,6 +8,7 @@
 #import "SingleTonDemo.h"
 #import "ViewControllerDemo2.h"
 #import "KeyboardViewController.h"
+#import "GestureRecognizerViewController.h"
 
 @interface ViewController ()
 
@@ -76,7 +77,11 @@
     UIViewController *vc = [[ViewControllerDemo2 alloc]init];
     //[self.navigationController pushViewController:vc animated:YES];
     
-    vc = [[KeyboardViewController alloc]init];
+//    vc = [[KeyboardViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    vc = [[GestureRecognizerViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
     
 }

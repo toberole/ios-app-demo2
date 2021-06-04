@@ -20,6 +20,9 @@
 		1879693B2669F02300473C30 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879693A2669F02300473C30 /* add.png */; };
 		187969402669F36000473C30 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879693E2669F36000473C30 /* KeyboardViewController.m */; };
 		187969412669F36000473C30 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1879693F2669F36000473C30 /* KeyboardViewController.xib */; };
+		18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796947266A005E00473C30 /* GestureRecognizerViewController.m */; };
+		1879694A266A005E00473C30 /* GestureRecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796948266A005E00473C30 /* GestureRecognizerViewController.xib */; };
+		1879694E266A02C000473C30 /* 快捷键.md in Resources */ = {isa = PBXBuildFile; fileRef = 1879694D266A02C000473C30 /* 快捷键.md */; };
 		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
 		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
 		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
@@ -59,6 +62,10 @@
 		1879693D2669F36000473C30 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		1879693E2669F36000473C30 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		1879693F2669F36000473C30 /* KeyboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		18796946266A005E00473C30 /* GestureRecognizerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerViewController.h; sourceTree = "<group>"; };
+		18796947266A005E00473C30 /* GestureRecognizerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerViewController.m; sourceTree = "<group>"; };
+		18796948266A005E00473C30 /* GestureRecognizerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GestureRecognizerViewController.xib; sourceTree = "<group>"; };
+		1879694D266A02C000473C30 /* 快捷键.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "快捷键.md"; sourceTree = "<group>"; };
 		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
 		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
 		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
@@ -158,6 +165,9 @@
 				1879693D2669F36000473C30 /* KeyboardViewController.h */,
 				1879693E2669F36000473C30 /* KeyboardViewController.m */,
 				1879693F2669F36000473C30 /* KeyboardViewController.xib */,
+				18796946266A005E00473C30 /* GestureRecognizerViewController.h */,
+				18796947266A005E00473C30 /* GestureRecognizerViewController.m */,
+				18796948266A005E00473C30 /* GestureRecognizerViewController.xib */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -169,6 +179,7 @@
 				180ACFDE2643C77E00319B95 /* readme-1.md */,
 				18F6F4F52657A886006F56F4 /* xcode.md */,
 				18F6F5982668A3B7006F56F4 /* ios.md */,
+				1879694D266A02C000473C30 /* 快捷键.md */,
 			);
 			path = doc;
 			sourceTree = "<group>";
@@ -293,6 +304,8 @@
 				1879692F2669ECCA00473C30 /* back.png in Resources */,
 				1879693B2669F02300473C30 /* add.png in Resources */,
 				18F6F550266771E6006F56F4 /* test.txt in Resources */,
+				1879694E266A02C000473C30 /* 快捷键.md in Resources */,
+				1879694A266A005E00473C30 /* GestureRecognizerViewController.xib in Resources */,
 				185DFB1F263904730051E8A5 /* oc.md in Resources */,
 				185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */,
 				18F6F5202664DF38006F56F4 /* html1.html in Resources */,
@@ -314,6 +327,7 @@
 				185DFAB12636979B0051E8A5 /* main.m in Sources */,
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
 				187969402669F36000473C30 /* KeyboardViewController.m in Sources */,
+				18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */,
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
