@@ -29,6 +29,7 @@
 		18F6F5672667801E006F56F4 /* Test_Protocol_Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5662667801E006F56F4 /* Test_Protocol_Impl.m */; };
 		18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F56A26678C2F006F56F4 /* CopyDemo.m */; };
 		18F6F5992668A3B7006F56F4 /* ios.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F5982668A3B7006F56F4 /* ios.md */; };
+		18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F59C2668DA39006F56F4 /* SingleTonDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		18F6F56A26678C2F006F56F4 /* CopyDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyDemo.m; sourceTree = "<group>"; };
 		18F6F56E26686D21006F56F4 /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 		18F6F5982668A3B7006F56F4 /* ios.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ios.md; sourceTree = "<group>"; };
+		18F6F59B2668DA39006F56F4 /* SingleTonDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleTonDemo.h; sourceTree = "<group>"; };
+		18F6F59C2668DA39006F56F4 /* SingleTonDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTonDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				18F6F5662667801E006F56F4 /* Test_Protocol_Impl.m */,
 				18F6F56926678C2F006F56F4 /* CopyDemo.h */,
 				18F6F56A26678C2F006F56F4 /* CopyDemo.m */,
+				18F6F59B2668DA39006F56F4 /* SingleTonDemo.h */,
+				18F6F59C2668DA39006F56F4 /* SingleTonDemo.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
+				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
 				18F6F51B2664DD1F006F56F4 /* HtmlViewController.m in Sources */,
 				18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */,
 				18F6F5672667801E006F56F4 /* Test_Protocol_Impl.m in Sources */,

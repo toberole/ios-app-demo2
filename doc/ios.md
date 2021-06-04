@@ -11,3 +11,5 @@ Library：存储程序的默认设置或其他状态信息，其中又包含了C
 Library/Caches：存放缓存文件，iTunes不会备份此目录，但此目录下文件在应用退出时不会被删除。
 Library/Preferences：存放偏好设置的plist文件。
 tmp：提供一个即时创建临时文件的地方。
+
+导航控制器创建过程中，首先会创建一个NavigationBar，然后NavigatonBar会创建对应控制器的NavigationItem。

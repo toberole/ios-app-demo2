@@ -5,6 +5,8 @@
 #import "Person+Student.h"
 #import "ViewControllerDemo1.h"
 #import <sqlite3.h>
+#import "SingleTonDemo.h"
+
 
 @interface ViewController ()
 
@@ -23,6 +25,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ViewController viewDidLoad ......");
+    
+    /**
+     注意：
+         ViewController title属性可以设置标题栏文字
+         ViewController#navigationItem#title 也可以设置标题栏文字
+         但是ViewController#navigationItem#title优先级高于ViewController#title
+     */
+    self.title = @"Hello ViewController";
+    self.navigationItem.title = @"Hello navigationItem";
+    
+    [[SingleTonDemo sharedInstance] test];
     
     self.btn1 = [self.view viewWithTag:1];
     [self.btn1 addTarget:self action:@selector(btn1_clicked) forControlEvents:UIControlEventTouchUpInside];
@@ -45,11 +58,26 @@
     btn = [self.view viewWithTag:7];
     [btn addTarget:self action:@selector(btn_sqlite) forControlEvents:UIControlEventTouchUpInside];
     
+    btn = [self.view viewWithTag:8];
+    [btn addTarget:self action:@selector(btn_device) forControlEvents:UIControlEventTouchUpInside];
+    
     
 //    [self test1];
 //
 //    CPP_Demo *demo = [[CPP_Demo alloc]init];
 //    [demo test];
+}
+
+-(void)btn_device{
+    NSLog(@"device ......");
+    
+    UIDevice*device = [UIDevice currentDevice];
+    NSLog(@"name: %@",device.name);
+    NSLog(@"model: %@",device.model);
+    NSLog(@"localizedModel: %@",device.localizedModel);
+    NSLog(@"systemVersion: %@",device.systemVersion);
+    NSLog(@"systemName: %@",device.systemName);
+    NSLog(@"UUIDString: %@",device.identifierForVendor.UUIDString);
 }
 
 /**

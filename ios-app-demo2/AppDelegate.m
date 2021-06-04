@@ -14,8 +14,12 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     UIStoryboard*storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ViewController*vc = [storyBoard instantiateViewControllerWithIdentifier:@"view_controller"];
-    UINavigationController *nv = [[UINavigationController alloc]initWithRootViewController:vc];
     
+    UINavigationController *nv = [[UINavigationController alloc]initWithRootViewController:vc];
+    // 导航栏背景颜色
+    nv.navigationBar.barTintColor = [UIColor blueColor];
+    // 导航栏文字颜色
+    nv.navigationBar.tintColor = [UIColor yellowColor];
     [self.window setRootViewController:nv];
     [self.window makeKeyAndVisible];
     

@@ -8,7 +8,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     UIButton*btn = [self.view viewWithTag:1];
     [btn addTarget:self action:@selector(btn_clicked) forControlEvents:UIControlEventTouchUpInside];
     
