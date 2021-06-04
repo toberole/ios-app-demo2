@@ -15,6 +15,11 @@
 		185DFAAE2636979B0051E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAAC2636979B0051E8A5 /* LaunchScreen.storyboard */; };
 		185DFAB12636979B0051E8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAB02636979B0051E8A5 /* main.m */; };
 		185DFB1F263904730051E8A5 /* oc.md in Resources */ = {isa = PBXBuildFile; fileRef = 185DFB1E263904730051E8A5 /* oc.md */; };
+		1879692F2669ECCA00473C30 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879692E2669ECCA00473C30 /* back.png */; };
+		187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969322669ED0500473C30 /* ViewControllerDemo2.m */; };
+		1879693B2669F02300473C30 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879693A2669F02300473C30 /* add.png */; };
+		187969402669F36000473C30 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879693E2669F36000473C30 /* KeyboardViewController.m */; };
+		187969412669F36000473C30 /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1879693F2669F36000473C30 /* KeyboardViewController.xib */; };
 		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
 		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
 		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
@@ -30,6 +35,8 @@
 		18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F56A26678C2F006F56F4 /* CopyDemo.m */; };
 		18F6F5992668A3B7006F56F4 /* ios.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F5982668A3B7006F56F4 /* ios.md */; };
 		18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F59C2668DA39006F56F4 /* SingleTonDemo.m */; };
+		18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5A02669E8A5006F56F4 /* BaseNavigationController.m */; };
+		18F6F5A52669E914006F56F4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5A42669E914006F56F4 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +52,13 @@
 		185DFAAF2636979B0051E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185DFAB02636979B0051E8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185DFB1E263904730051E8A5 /* oc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = oc.md; sourceTree = "<group>"; };
+		1879692E2669ECCA00473C30 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		187969312669ED0500473C30 /* ViewControllerDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo2.h; sourceTree = "<group>"; };
+		187969322669ED0500473C30 /* ViewControllerDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo2.m; sourceTree = "<group>"; };
+		1879693A2669F02300473C30 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		1879693D2669F36000473C30 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		1879693E2669F36000473C30 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		1879693F2669F36000473C30 /* KeyboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
 		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
 		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
 		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
@@ -70,6 +84,10 @@
 		18F6F5982668A3B7006F56F4 /* ios.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ios.md; sourceTree = "<group>"; };
 		18F6F59B2668DA39006F56F4 /* SingleTonDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleTonDemo.h; sourceTree = "<group>"; };
 		18F6F59C2668DA39006F56F4 /* SingleTonDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTonDemo.m; sourceTree = "<group>"; };
+		18F6F59F2669E8A5006F56F4 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		18F6F5A02669E8A5006F56F4 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		18F6F5A32669E914006F56F4 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18F6F5A42669E914006F56F4 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,7 @@
 		185DFA9D2636979A0051E8A5 /* ios-app-demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				18F6F5A72669EC59006F56F4 /* imgs */,
 				18F6F56D26686CFD006F56F4 /* util */,
 				18F6F54B26676EB4006F56F4 /* test_files */,
 				18F6F51E2664DEAE006F56F4 /* html */,
@@ -122,6 +141,10 @@
 		185DFB1C263904420051E8A5 /* vc1 */ = {
 			isa = PBXGroup;
 			children = (
+				18F6F59F2669E8A5006F56F4 /* BaseNavigationController.h */,
+				18F6F5A02669E8A5006F56F4 /* BaseNavigationController.m */,
+				18F6F5A32669E914006F56F4 /* BaseViewController.h */,
+				18F6F5A42669E914006F56F4 /* BaseViewController.m */,
 				185DFAA42636979A0051E8A5 /* ViewController.h */,
 				185DFAA52636979A0051E8A5 /* ViewController.m */,
 				18F6F5032657D35D006F56F4 /* ViewControllerDemo1.h */,
@@ -130,6 +153,11 @@
 				18F6F5182664DD1F006F56F4 /* HtmlViewController.h */,
 				18F6F5192664DD1F006F56F4 /* HtmlViewController.m */,
 				18F6F51A2664DD1F006F56F4 /* HtmlViewController.xib */,
+				187969312669ED0500473C30 /* ViewControllerDemo2.h */,
+				187969322669ED0500473C30 /* ViewControllerDemo2.m */,
+				1879693D2669F36000473C30 /* KeyboardViewController.h */,
+				1879693E2669F36000473C30 /* KeyboardViewController.m */,
+				1879693F2669F36000473C30 /* KeyboardViewController.xib */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -188,6 +216,15 @@
 				18F6F56E26686D21006F56F4 /* Log.h */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		18F6F5A72669EC59006F56F4 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				1879693A2669F02300473C30 /* add.png */,
+				1879692E2669ECCA00473C30 /* back.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +287,11 @@
 				185DFAAE2636979B0051E8A5 /* LaunchScreen.storyboard in Resources */,
 				185DFAAB2636979B0051E8A5 /* Assets.xcassets in Resources */,
 				18F6F4F62657A886006F56F4 /* xcode.md in Resources */,
+				187969412669F36000473C30 /* KeyboardViewController.xib in Resources */,
 				18F6F51C2664DD1F006F56F4 /* HtmlViewController.xib in Resources */,
 				18F6F54D26676EE3006F56F4 /* 6.jpg in Resources */,
+				1879692F2669ECCA00473C30 /* back.png in Resources */,
+				1879693B2669F02300473C30 /* add.png in Resources */,
 				18F6F550266771E6006F56F4 /* test.txt in Resources */,
 				185DFB1F263904730051E8A5 /* oc.md in Resources */,
 				185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */,
@@ -273,9 +313,13 @@
 				18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */,
 				185DFAB12636979B0051E8A5 /* main.m in Sources */,
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
+				187969402669F36000473C30 /* KeyboardViewController.m in Sources */,
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
+				187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */,
+				18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */,
+				18F6F5A52669E914006F56F4 /* BaseViewController.m in Sources */,
 				18F6F51B2664DD1F006F56F4 /* HtmlViewController.m in Sources */,
 				18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */,
 				18F6F5672667801E006F56F4 /* Test_Protocol_Impl.m in Sources */,

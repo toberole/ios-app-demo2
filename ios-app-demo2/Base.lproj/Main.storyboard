@@ -57,11 +57,17 @@
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Device"/>
                             </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LoF-gx-jbz">
+                                <rect key="frame" x="100" y="494" width="214" height="30"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="pushViewController-2"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Tq-94-Kxg" secondAttribute="trailing" constant="100" id="2n8-2g-fX3"/>
+                            <constraint firstItem="LoF-gx-jbz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="8wb-wg-VkV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zfE-bC-qLC" secondAttribute="trailing" constant="100" id="9D8-oY-hbN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ns2-E5-Wac" secondAttribute="trailing" constant="100" id="A5e-uG-bki"/>
                             <constraint firstItem="ICO-bl-pn4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Atm-me-eno"/>
@@ -70,6 +76,7 @@
                             <constraint firstItem="jAa-Mo-qWg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="RE3-m9-Hgc"/>
                             <constraint firstItem="zfE-bC-qLC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Tgb-2p-ovT"/>
                             <constraint firstItem="lpu-iu-IV6" firstAttribute="top" secondItem="ICO-bl-pn4" secondAttribute="bottom" constant="20" id="Wra-Pa-4Rp"/>
+                            <constraint firstItem="LoF-gx-jbz" firstAttribute="top" secondItem="9zd-OT-yGi" secondAttribute="bottom" constant="20" id="XHg-b1-5bl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lpu-iu-IV6" secondAttribute="trailing" constant="100" id="XIH-tW-rVW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B0p-sd-Aec" secondAttribute="trailing" constant="100" id="Xxl-CI-3io"/>
                             <constraint firstItem="B0p-sd-Aec" firstAttribute="top" secondItem="lpu-iu-IV6" secondAttribute="bottom" constant="20" id="ZZy-4B-2Cx"/>
@@ -79,6 +86,7 @@
                             <constraint firstItem="lpu-iu-IV6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="huR-VL-5Tm"/>
                             <constraint firstItem="jAa-Mo-qWg" firstAttribute="top" secondItem="ns2-E5-Wac" secondAttribute="bottom" constant="30" id="j3p-5r-FRs"/>
                             <constraint firstItem="zfE-bC-qLC" firstAttribute="top" secondItem="B0p-sd-Aec" secondAttribute="bottom" constant="20" id="jFX-Gy-v5Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LoF-gx-jbz" secondAttribute="trailing" constant="100" id="pSz-2a-Y4E"/>
                             <constraint firstItem="9Tq-94-Kxg" firstAttribute="top" secondItem="zfE-bC-qLC" secondAttribute="bottom" constant="20" id="qkP-RV-Yc1"/>
                             <constraint firstItem="9Tq-94-Kxg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="sg4-Lk-bnZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ICO-bl-pn4" secondAttribute="trailing" constant="100" id="uFr-Pr-dKE"/>

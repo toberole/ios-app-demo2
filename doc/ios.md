@@ -13,3 +13,14 @@ Library/Preferences：存放偏好设置的plist文件。
 tmp：提供一个即时创建临时文件的地方。
 
 导航控制器创建过程中，首先会创建一个NavigationBar，然后NavigatonBar会创建对应控制器的NavigationItem。
+UINavigationController负责创建UINavigationBar。而UINavigationBar的内容则是由处于UIViewController堆栈顶部的UIViewController的navigationItem这个属性来管理的。
+
+UINavigationBar、UINavigationItem、UIToolbar与UIBarButtonItem四者关系
+    NavigaitonBar是导航栏，位于屏幕的上方，管理整个NavigationController的navigationItem，它类似navigationcontroller一样提供了一个栈来管理UINavigationItem，在编程时，一般只设置每个控制器的navigationItem属性
+
+    一个导航控制器管理多个视图控制器（多个视图控制器共享一个导航控制器），而一个导航控制器只有一个UINavigationBar，被管理的多个视图控制器共享这一个UINavigationBar，只要一个视图控制器改变了UINavigationBar的属性则影响是全局的。每个视图控制器都会有属于自己的UINavigationItem，系统会以懒加载的方式创建一个UINavigationItem显示在UINavigationBar中，改变UINavigationItem只会在当前控制器起作用，不会影响其它控制器。
+    
+    Toolbar显示在屏幕底部，是导航控制器的工具栏，一个导航控制器只有一个，在任何被管理的视图控制器地方改变则会都改变。可以一次性添加多个UIBarButtonItem或按钮（包装成UIBarButtonItem后添加），有一个items数组属性。
+    UIBarButtonItem是UINavigationItem或者Toolbar具体的一个按钮。
+
+

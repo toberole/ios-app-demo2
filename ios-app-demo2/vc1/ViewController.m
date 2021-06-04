@@ -6,7 +6,8 @@
 #import "ViewControllerDemo1.h"
 #import <sqlite3.h>
 #import "SingleTonDemo.h"
-
+#import "ViewControllerDemo2.h"
+#import "KeyboardViewController.h"
 
 @interface ViewController ()
 
@@ -61,11 +62,23 @@
     btn = [self.view viewWithTag:8];
     [btn addTarget:self action:@selector(btn_device) forControlEvents:UIControlEventTouchUpInside];
     
+    btn = [self.view viewWithTag:9];
+    [btn addTarget:self action:@selector(btn_PushViewController) forControlEvents:UIControlEventTouchUpInside];
+    
     
 //    [self test1];
 //
 //    CPP_Demo *demo = [[CPP_Demo alloc]init];
 //    [demo test];
+}
+
+-(void)btn_PushViewController{
+    UIViewController *vc = [[ViewControllerDemo2 alloc]init];
+    //[self.navigationController pushViewController:vc animated:YES];
+    
+    vc = [[KeyboardViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 -(void)btn_device{

@@ -14,7 +14,7 @@
     // self.navigationController.navigationBar.hidden = TRUE;
     
     UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"go back" style:UIBarButtonItemStyleDone target:self action:@selector(go_back)];
-     
+    
     self.navigationItem.leftBarButtonItem = leftBarButtonItem;
     
     self.webView = [self.view viewWithTag:1];

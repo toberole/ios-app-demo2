@@ -16,10 +16,11 @@
     ViewController*vc = [storyBoard instantiateViewControllerWithIdentifier:@"view_controller"];
     
     UINavigationController *nv = [[UINavigationController alloc]initWithRootViewController:vc];
+    // nv.interactivePopGestureRecognizer.enabled = YES;
     // 导航栏背景颜色
-    nv.navigationBar.barTintColor = [UIColor blueColor];
+    // nv.navigationBar.barTintColor = [UIColor whiteColor];
     // 导航栏文字颜色
-    nv.navigationBar.tintColor = [UIColor yellowColor];
+    // nv.navigationBar.tintColor = [UIColor yellowColor];
     [self.window setRootViewController:nv];
     [self.window makeKeyAndVisible];
     
