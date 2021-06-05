@@ -9,6 +9,8 @@
 #import "ViewControllerDemo2.h"
 #import "KeyboardViewController.h"
 #import "GestureRecognizerViewController.h"
+#import "ScrollViewViewController.h"
+#import "DemoBean1.h"
 
 @interface ViewController ()
 
@@ -27,6 +29,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ViewController viewDidLoad ......");
+    
+    DemoBean1 *demoBean1 = [[DemoBean1 alloc]init];
+    demoBean1.n = 1;
+    [demoBean1 test1];
     
     /**
      注意：
@@ -81,9 +87,11 @@
 //    [self.navigationController pushViewController:vc animated:YES];
     
     
-    vc = [[GestureRecognizerViewController alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
+//    vc = [[GestureRecognizerViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
     
+    vc = [[ScrollViewViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(void)btn_device{
@@ -238,6 +246,8 @@
 -(void)test5{
     Person *p = [[Person alloc]init];
     [p printStudentInfo];
+    
+    [p setScore:1];
     
     // KVC 设置值
     [p setValue:@"hello name" forKey:@"name"];
