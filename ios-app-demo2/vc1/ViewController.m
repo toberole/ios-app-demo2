@@ -30,10 +30,6 @@
     [super viewDidLoad];
     NSLog(@"ViewController viewDidLoad ......");
     
-    DemoBean1 *demoBean1 = [[DemoBean1 alloc]init];
-    demoBean1.n = 1;
-    [demoBean1 test1];
-    
     /**
      注意：
          ViewController title属性可以设置标题栏文字
@@ -302,7 +298,15 @@
 }
 
 
-
-
+-(void)test0{
+    DemoBean1 *demoBean1 = [[DemoBean1 alloc]init];
+    demoBean1.n = 1;
+    [demoBean1 test1];
+    
+    [demoBean1 performSelector:@selector(test)];
+    [demoBean1 performSelector:@selector(test) withObject:nil];
+    [demoBean1 performSelector:@selector(test) withObject:nil afterDelay:0];
+    [[demoBean1 performSelector:@selector(test) onThread:NSThread mainThread] withObject:nil waitUntilDone:YES];
+}
 
 @end
