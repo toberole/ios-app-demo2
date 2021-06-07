@@ -24,9 +24,26 @@
     [self.window setRootViewController:nv];
     [self.window makeKeyAndVisible];
     
+    [self setApplicationIconBadgeNumber:10];
+    
+    // 联网状态
+    NSLog(@"联网状态: %d",[UIApplication sharedApplication].networkActivityIndicatorVisible);
+
     return YES;
 }
 
+-(void)setApplicationIconBadgeNumber:(int)applicationIconBadgeNumber{
+    
+    //创建UIUserNotificationSettings对象
+    UIUserNotificationSettings *set = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge categories:nil];
+    //In iOS 8.0 and later, your application must register for user notifications using -[UIApplication registerUserNotificationSettings:] before being able to set the icon badge.
+    //在iOS8及以后,你的应用必须通过[UIApplication registerUserNotificationSettings:]方法来注册用户通知之后,才能设置applicationIconBadge属性
+    [[UIApplication sharedApplication] registerUserNotificationSettings:set];
+    //设置消息数量
+    [UIApplication sharedApplication].applicationIconBadgeNumber = applicationIconBadgeNumber;
+    
+
+}
 
 //#pragma mark - UISceneSession lifecycle
 //

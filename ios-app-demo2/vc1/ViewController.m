@@ -11,6 +11,8 @@
 #import "GestureRecognizerViewController.h"
 #import "ScrollViewViewController.h"
 #import "DemoBean1.h"
+#import "A_ViewController.h"
+#import "LifeCycleViewController.h"
 
 @interface ViewController ()
 
@@ -25,6 +27,11 @@
 @end
 
 @implementation ViewController
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    NSLog(@"touchesBegan .....");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -76,8 +83,10 @@
 }
 
 -(void)btn_PushViewController{
-    UIViewController *vc = [[ViewControllerDemo2 alloc]init];
-    //[self.navigationController pushViewController:vc animated:YES];
+    UIViewController *vc = nil;
+    
+//    vc = [[ViewControllerDemo2 alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
     
 //    vc = [[KeyboardViewController alloc]init];
 //    [self.navigationController pushViewController:vc animated:YES];
@@ -86,8 +95,15 @@
 //    vc = [[GestureRecognizerViewController alloc]init];
 //    [self.navigationController pushViewController:vc animated:YES];
     
-    vc = [[ScrollViewViewController alloc]init];
+//    vc = [[ScrollViewViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+//
+//    vc = [[A_ViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+//    
+    vc = [[LifeCycleViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 -(void)btn_device{
@@ -306,7 +322,7 @@
     [demoBean1 performSelector:@selector(test)];
     [demoBean1 performSelector:@selector(test) withObject:nil];
     [demoBean1 performSelector:@selector(test) withObject:nil afterDelay:0];
-    [[demoBean1 performSelector:@selector(test) onThread:NSThread mainThread] withObject:nil waitUntilDone:YES];
+    [demoBean1 performSelector:@selector(test) onThread:[NSThread mainThread] withObject:nil waitUntilDone:YES];
 }
 
 @end

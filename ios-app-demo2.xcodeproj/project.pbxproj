@@ -26,6 +26,14 @@
 		18796954266B551E00473C30 /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796952266B551E00473C30 /* ScrollViewViewController.m */; };
 		18796955266B551E00473C30 /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796953266B551E00473C30 /* ScrollViewViewController.xib */; };
 		18796959266B686500473C30 /* DemoBean1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796958266B686500473C30 /* DemoBean1.m */; };
+		187969B7266BA69100473C30 /* app启动.md in Resources */ = {isa = PBXBuildFile; fileRef = 187969B6266BA69100473C30 /* app启动.md */; };
+		187969BD266DAEB800473C30 /* A_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969BB266DAEB700473C30 /* A_ViewController.m */; };
+		187969BE266DAEB800473C30 /* A_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187969BC266DAEB700473C30 /* A_ViewController.xib */; };
+		187969C4266DAECE00473C30 /* B_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969C2266DAECE00473C30 /* B_ViewController.m */; };
+		187969C5266DAECE00473C30 /* B_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187969C3266DAECE00473C30 /* B_ViewController.xib */; };
+		187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969C8266DBDDA00473C30 /* LifeCycleViewController.m */; };
+		187969CB266DBDDA00473C30 /* LifeCycleViewController_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187969C9266DBDDA00473C30 /* LifeCycleViewController_1.xib */; };
+		187969D1266DD7F900473C30 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969D0266DD7F900473C30 /* MyView.m */; };
 		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
 		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
 		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
@@ -74,6 +82,18 @@
 		18796953266B551E00473C30 /* ScrollViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
 		18796957266B686500473C30 /* DemoBean1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean1.h; sourceTree = "<group>"; };
 		18796958266B686500473C30 /* DemoBean1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean1.m; sourceTree = "<group>"; };
+		187969B6266BA69100473C30 /* app启动.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "app启动.md"; sourceTree = "<group>"; };
+		187969BA266DAEB700473C30 /* A_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_ViewController.h; sourceTree = "<group>"; };
+		187969BB266DAEB700473C30 /* A_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_ViewController.m; sourceTree = "<group>"; };
+		187969BC266DAEB700473C30 /* A_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = A_ViewController.xib; sourceTree = "<group>"; };
+		187969C1266DAECE00473C30 /* B_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_ViewController.h; sourceTree = "<group>"; };
+		187969C2266DAECE00473C30 /* B_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_ViewController.m; sourceTree = "<group>"; };
+		187969C3266DAECE00473C30 /* B_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = B_ViewController.xib; sourceTree = "<group>"; };
+		187969C7266DBDDA00473C30 /* LifeCycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeCycleViewController.h; sourceTree = "<group>"; };
+		187969C8266DBDDA00473C30 /* LifeCycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeCycleViewController.m; sourceTree = "<group>"; };
+		187969C9266DBDDA00473C30 /* LifeCycleViewController_1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifeCycleViewController_1.xib; sourceTree = "<group>"; };
+		187969CF266DD7F900473C30 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		187969D0266DD7F900473C30 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
 		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
 		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
@@ -136,6 +156,7 @@
 		185DFA9D2636979A0051E8A5 /* ios-app-demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				187969CE266DD7A100473C30 /* view */,
 				18F6F5A72669EC59006F56F4 /* imgs */,
 				18F6F56D26686CFD006F56F4 /* util */,
 				18F6F54B26676EB4006F56F4 /* test_files */,
@@ -179,6 +200,15 @@
 				18796951266B551E00473C30 /* ScrollViewViewController.h */,
 				18796952266B551E00473C30 /* ScrollViewViewController.m */,
 				18796953266B551E00473C30 /* ScrollViewViewController.xib */,
+				187969BA266DAEB700473C30 /* A_ViewController.h */,
+				187969BB266DAEB700473C30 /* A_ViewController.m */,
+				187969BC266DAEB700473C30 /* A_ViewController.xib */,
+				187969C1266DAECE00473C30 /* B_ViewController.h */,
+				187969C2266DAECE00473C30 /* B_ViewController.m */,
+				187969C3266DAECE00473C30 /* B_ViewController.xib */,
+				187969C7266DBDDA00473C30 /* LifeCycleViewController.h */,
+				187969C8266DBDDA00473C30 /* LifeCycleViewController.m */,
+				187969C9266DBDDA00473C30 /* LifeCycleViewController_1.xib */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -191,8 +221,18 @@
 				18F6F4F52657A886006F56F4 /* xcode.md */,
 				18F6F5982668A3B7006F56F4 /* ios.md */,
 				1879694D266A02C000473C30 /* 快捷键.md */,
+				187969B6266BA69100473C30 /* app启动.md */,
 			);
 			path = doc;
+			sourceTree = "<group>";
+		};
+		187969CE266DD7A100473C30 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				187969CF266DD7F900473C30 /* MyView.h */,
+				187969D0266DD7F900473C30 /* MyView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		18F6F4D82653E16C006F56F4 /* demo1 */ = {
@@ -312,16 +352,20 @@
 				185DFAAB2636979B0051E8A5 /* Assets.xcassets in Resources */,
 				18F6F4F62657A886006F56F4 /* xcode.md in Resources */,
 				187969412669F36000473C30 /* KeyboardViewController.xib in Resources */,
+				187969CB266DBDDA00473C30 /* LifeCycleViewController_1.xib in Resources */,
 				18F6F51C2664DD1F006F56F4 /* HtmlViewController.xib in Resources */,
 				18796955266B551E00473C30 /* ScrollViewViewController.xib in Resources */,
 				18F6F54D26676EE3006F56F4 /* 6.jpg in Resources */,
+				187969C5266DAECE00473C30 /* B_ViewController.xib in Resources */,
 				1879692F2669ECCA00473C30 /* back.png in Resources */,
 				1879693B2669F02300473C30 /* add.png in Resources */,
 				18F6F550266771E6006F56F4 /* test.txt in Resources */,
+				187969B7266BA69100473C30 /* app启动.md in Resources */,
 				1879694E266A02C000473C30 /* 快捷键.md in Resources */,
 				1879694A266A005E00473C30 /* GestureRecognizerViewController.xib in Resources */,
 				185DFB1F263904730051E8A5 /* oc.md in Resources */,
 				185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */,
+				187969BE266DAEB800473C30 /* A_ViewController.xib in Resources */,
 				18F6F5202664DF38006F56F4 /* html1.html in Resources */,
 				18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */,
 				180ACFDF2643C77E00319B95 /* readme-1.md in Resources */,
@@ -346,11 +390,15 @@
 				18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */,
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
+				187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */,
+				187969BD266DAEB800473C30 /* A_ViewController.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
 				187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */,
 				18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */,
 				18F6F5A52669E914006F56F4 /* BaseViewController.m in Sources */,
 				18F6F51B2664DD1F006F56F4 /* HtmlViewController.m in Sources */,
+				187969D1266DD7F900473C30 /* MyView.m in Sources */,
+				187969C4266DAECE00473C30 /* B_ViewController.m in Sources */,
 				18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */,
 				18F6F5672667801E006F56F4 /* Test_Protocol_Impl.m in Sources */,
 			);
