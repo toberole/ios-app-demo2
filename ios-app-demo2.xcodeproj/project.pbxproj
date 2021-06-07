@@ -34,6 +34,9 @@
 		187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969C8266DBDDA00473C30 /* LifeCycleViewController.m */; };
 		187969CB266DBDDA00473C30 /* LifeCycleViewController_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187969C9266DBDDA00473C30 /* LifeCycleViewController_1.xib */; };
 		187969D1266DD7F900473C30 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969D0266DD7F900473C30 /* MyView.m */; };
+		187969D6266DE5FA00473C30 /* MyView_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969D5266DE5FA00473C30 /* MyView_1.m */; };
+		187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969D9266DE82100473C30 /* TableView_ViewController.m */; };
+		187969DC266DE82100473C30 /* TableView_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187969DA266DE82100473C30 /* TableView_ViewController.xib */; };
 		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
 		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
 		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
@@ -94,6 +97,11 @@
 		187969C9266DBDDA00473C30 /* LifeCycleViewController_1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifeCycleViewController_1.xib; sourceTree = "<group>"; };
 		187969CF266DD7F900473C30 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		187969D0266DD7F900473C30 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		187969D4266DE5FA00473C30 /* MyView_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView_1.h; sourceTree = "<group>"; };
+		187969D5266DE5FA00473C30 /* MyView_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView_1.m; sourceTree = "<group>"; };
+		187969D8266DE82100473C30 /* TableView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView_ViewController.h; sourceTree = "<group>"; };
+		187969D9266DE82100473C30 /* TableView_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_ViewController.m; sourceTree = "<group>"; };
+		187969DA266DE82100473C30 /* TableView_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableView_ViewController.xib; sourceTree = "<group>"; };
 		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
 		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
 		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
@@ -209,6 +217,9 @@
 				187969C7266DBDDA00473C30 /* LifeCycleViewController.h */,
 				187969C8266DBDDA00473C30 /* LifeCycleViewController.m */,
 				187969C9266DBDDA00473C30 /* LifeCycleViewController_1.xib */,
+				187969D8266DE82100473C30 /* TableView_ViewController.h */,
+				187969D9266DE82100473C30 /* TableView_ViewController.m */,
+				187969DA266DE82100473C30 /* TableView_ViewController.xib */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -231,6 +242,8 @@
 			children = (
 				187969CF266DD7F900473C30 /* MyView.h */,
 				187969D0266DD7F900473C30 /* MyView.m */,
+				187969D4266DE5FA00473C30 /* MyView_1.h */,
+				187969D5266DE5FA00473C30 /* MyView_1.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -353,6 +366,7 @@
 				18F6F4F62657A886006F56F4 /* xcode.md in Resources */,
 				187969412669F36000473C30 /* KeyboardViewController.xib in Resources */,
 				187969CB266DBDDA00473C30 /* LifeCycleViewController_1.xib in Resources */,
+				187969DC266DE82100473C30 /* TableView_ViewController.xib in Resources */,
 				18F6F51C2664DD1F006F56F4 /* HtmlViewController.xib in Resources */,
 				18796955266B551E00473C30 /* ScrollViewViewController.xib in Resources */,
 				18F6F54D26676EE3006F56F4 /* 6.jpg in Resources */,
@@ -385,6 +399,7 @@
 				185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */,
 				18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */,
 				185DFAB12636979B0051E8A5 /* main.m in Sources */,
+				187969D6266DE5FA00473C30 /* MyView_1.m in Sources */,
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
 				187969402669F36000473C30 /* KeyboardViewController.m in Sources */,
 				18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */,
@@ -392,6 +407,7 @@
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
 				187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */,
 				187969BD266DAEB800473C30 /* A_ViewController.m in Sources */,
+				187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
 				187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */,
 				18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */,

@@ -13,6 +13,7 @@
 #import "DemoBean1.h"
 #import "A_ViewController.h"
 #import "LifeCycleViewController.h"
+#import "TableView_ViewController.h"
 
 @interface ViewController ()
 
@@ -36,6 +37,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"ViewController viewDidLoad ......");
+    
+    UINib*nib = nil;
+    
     
     /**
      注意：
@@ -100,8 +104,11 @@
 //
 //    vc = [[A_ViewController alloc]init];
 //    [self.navigationController pushViewController:vc animated:YES];
-//    
-    vc = [[LifeCycleViewController alloc]init];
+//
+//    vc = [[LifeCycleViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    vc = [[TableView_ViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
     
 }
