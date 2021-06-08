@@ -3,7 +3,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
+@interface Person : NSObject<NSDiscardableContent>
 
 @property(nonatomic,assign)int age;
 @property(nonatomic,strong)NSString*name;

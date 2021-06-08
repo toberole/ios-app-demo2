@@ -37,6 +37,10 @@
 		187969D6266DE5FA00473C30 /* MyView_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969D5266DE5FA00473C30 /* MyView_1.m */; };
 		187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969D9266DE82100473C30 /* TableView_ViewController.m */; };
 		187969DC266DE82100473C30 /* TableView_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187969DA266DE82100473C30 /* TableView_ViewController.xib */; };
+		18796A4E266F322200473C30 /* CacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796A4C266F322200473C30 /* CacheViewController.m */; };
+		18796A4F266F322300473C30 /* CacheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796A4D266F322200473C30 /* CacheViewController.xib */; };
+		18796A54266F5EE600473C30 /* test1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796A53266F5EE600473C30 /* test1.xib */; };
+		18796A58266F5FE200473C30 /* TestXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796A57266F5FE200473C30 /* TestXIB.m */; };
 		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
 		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
 		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
@@ -102,6 +106,12 @@
 		187969D8266DE82100473C30 /* TableView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView_ViewController.h; sourceTree = "<group>"; };
 		187969D9266DE82100473C30 /* TableView_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_ViewController.m; sourceTree = "<group>"; };
 		187969DA266DE82100473C30 /* TableView_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableView_ViewController.xib; sourceTree = "<group>"; };
+		18796A4B266F322200473C30 /* CacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheViewController.h; sourceTree = "<group>"; };
+		18796A4C266F322200473C30 /* CacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheViewController.m; sourceTree = "<group>"; };
+		18796A4D266F322200473C30 /* CacheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CacheViewController.xib; sourceTree = "<group>"; };
+		18796A53266F5EE600473C30 /* test1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = test1.xib; sourceTree = "<group>"; };
+		18796A56266F5FE200473C30 /* TestXIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXIB.h; sourceTree = "<group>"; };
+		18796A57266F5FE200473C30 /* TestXIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXIB.m; sourceTree = "<group>"; };
 		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
 		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
 		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
@@ -164,6 +174,7 @@
 		185DFA9D2636979A0051E8A5 /* ios-app-demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				18796A51266F434C00473C30 /* vc2 */,
 				187969CE266DD7A100473C30 /* view */,
 				18F6F5A72669EC59006F56F4 /* imgs */,
 				18F6F56D26686CFD006F56F4 /* util */,
@@ -220,6 +231,9 @@
 				187969D8266DE82100473C30 /* TableView_ViewController.h */,
 				187969D9266DE82100473C30 /* TableView_ViewController.m */,
 				187969DA266DE82100473C30 /* TableView_ViewController.xib */,
+				18796A4B266F322200473C30 /* CacheViewController.h */,
+				18796A4C266F322200473C30 /* CacheViewController.m */,
+				18796A4D266F322200473C30 /* CacheViewController.xib */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -246,6 +260,16 @@
 				187969D5266DE5FA00473C30 /* MyView_1.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		18796A51266F434C00473C30 /* vc2 */ = {
+			isa = PBXGroup;
+			children = (
+				18796A53266F5EE600473C30 /* test1.xib */,
+				18796A56266F5FE200473C30 /* TestXIB.h */,
+				18796A57266F5FE200473C30 /* TestXIB.m */,
+			);
+			path = vc2;
 			sourceTree = "<group>";
 		};
 		18F6F4D82653E16C006F56F4 /* demo1 */ = {
@@ -363,6 +387,7 @@
 				18F6F5992668A3B7006F56F4 /* ios.md in Resources */,
 				185DFAAE2636979B0051E8A5 /* LaunchScreen.storyboard in Resources */,
 				185DFAAB2636979B0051E8A5 /* Assets.xcassets in Resources */,
+				18796A4F266F322300473C30 /* CacheViewController.xib in Resources */,
 				18F6F4F62657A886006F56F4 /* xcode.md in Resources */,
 				187969412669F36000473C30 /* KeyboardViewController.xib in Resources */,
 				187969CB266DBDDA00473C30 /* LifeCycleViewController_1.xib in Resources */,
@@ -383,6 +408,7 @@
 				18F6F5202664DF38006F56F4 /* html1.html in Resources */,
 				18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */,
 				180ACFDF2643C77E00319B95 /* readme-1.md in Resources */,
+				18796A54266F5EE600473C30 /* test1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +436,11 @@
 				187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
 				187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */,
+				18796A4E266F322200473C30 /* CacheViewController.m in Sources */,
 				18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */,
 				18F6F5A52669E914006F56F4 /* BaseViewController.m in Sources */,
 				18F6F51B2664DD1F006F56F4 /* HtmlViewController.m in Sources */,
+				18796A58266F5FE200473C30 /* TestXIB.m in Sources */,
 				187969D1266DD7F900473C30 /* MyView.m in Sources */,
 				187969C4266DAECE00473C30 /* B_ViewController.m in Sources */,
 				18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */,

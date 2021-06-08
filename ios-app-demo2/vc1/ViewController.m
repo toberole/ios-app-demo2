@@ -15,6 +15,10 @@
 #import "LifeCycleViewController.h"
 #import "TableView_ViewController.h"
 
+#import <objc/runtime.h>
+
+#import "CacheViewController.h"
+
 @interface ViewController ()
 
 @property(nonatomic,strong)UIButton*btn1;
@@ -29,9 +33,47 @@
 
 @implementation ViewController
 
++ (void)load{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        Class class = [self class];
+        
+        SEL originalSelector = @selector(viewDidLoad);
+        SEL swizzledSelector = @selector(myViewDidLoad);
+        
+        Method originalMethod = class_getInstanceMethod(class, originalSelector);
+        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+        
+        BOOL didAddMethod = class_addMethod(class,
+                       originalSelector,
+                       method_getImplementation(swizzledMethod),
+                       method_getTypeEncoding(swizzledMethod));
+        
+        NSLog(@"didAddMethod: %d",didAddMethod);
+        
+        if (didAddMethod) {
+           class_replaceMethod(class,
+               swizzledSelector,
+               method_getImplementation(originalMethod),
+               method_getTypeEncoding(originalMethod));
+        } else {
+           method_exchangeImplementations(originalMethod, swizzledMethod);
+        }
+    });
+}
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
     NSLog(@"touchesBegan .....");
+}
+
+-(void)myViewDidLoad{
+    NSLog(@"myViewDidLoad ......");
+    
+    // 不会产生递归死循环
+    // 因为myViewDidLoad 与 viewDidLoad 发生了互换
+    // 调用viewDidLoad相当于是调用myViewDidLoad
+    // 调用myViewDidLoad 相当于调用调换之前的viewDidLoad
+    [self myViewDidLoad];
 }
 
 - (void)viewDidLoad {
@@ -108,7 +150,10 @@
 //    vc = [[LifeCycleViewController alloc]init];
 //    [self.navigationController pushViewController:vc animated:YES];
     
-    vc = [[TableView_ViewController alloc]init];
+//    vc = [[TableView_ViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    vc = [[CacheViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
     
 }
