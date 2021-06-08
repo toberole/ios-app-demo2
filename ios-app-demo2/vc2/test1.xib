@@ -4,24 +4,24 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestXIB"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="WdY-dm-SJQ">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="JuN-Bk-LP7">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="211"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <viewLayoutGuide key="safeArea" id="JRL-uJ-2WP"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="-571" y="-147"/>
-        </view>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <state key="normal" title="Button-1"/>
+            <point key="canvasLocation" x="-973.1884057971015" y="-311.71875"/>
+        </button>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Ljd-7B-ILQ">
+            <rect key="frame" x="0.0" y="0.0" width="269" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <state key="normal" title="Button-2"/>
+            <point key="canvasLocation" x="-439.85507246376812" y="-311.71875"/>
+        </button>
     </objects>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

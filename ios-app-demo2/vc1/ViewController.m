@@ -18,6 +18,7 @@
 #import <objc/runtime.h>
 
 #import "CacheViewController.h"
+#import "XIBViewController.h"
 
 @interface ViewController ()
 
@@ -82,6 +83,7 @@
     
     UINib*nib = nil;
     
+    [self testXib];
     
     /**
      注意：
@@ -128,6 +130,15 @@
 //    [demo test];
 }
 
+-(void)testXib{
+    NSArray *views = [[NSBundle mainBundle]loadNibNamed:@"test1" owner:nil options:nil];
+    int n = [views count];
+    for (int i = 0; i< n; i++) {
+        NSLog(@"views : %@",[views objectAtIndex:i]);
+    }
+    
+}
+
 -(void)btn_PushViewController{
     UIViewController *vc = nil;
     
@@ -153,7 +164,10 @@
 //    vc = [[TableView_ViewController alloc]init];
 //    [self.navigationController pushViewController:vc animated:YES];
     
-    vc = [[CacheViewController alloc]init];
+//    vc = [[CacheViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+    vc = [[XIBViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
     
 }

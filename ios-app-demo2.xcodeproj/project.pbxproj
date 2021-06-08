@@ -41,6 +41,8 @@
 		18796A4F266F322300473C30 /* CacheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796A4D266F322200473C30 /* CacheViewController.xib */; };
 		18796A54266F5EE600473C30 /* test1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796A53266F5EE600473C30 /* test1.xib */; };
 		18796A58266F5FE200473C30 /* TestXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796A57266F5FE200473C30 /* TestXIB.m */; };
+		18796A86266F7FBD00473C30 /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18796A84266F7FBD00473C30 /* XIBViewController.m */; };
+		18796A87266F7FBD00473C30 /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18796A85266F7FBD00473C30 /* XIBViewController.xib */; };
 		18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */; };
 		18F6F4F62657A886006F56F4 /* xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = 18F6F4F52657A886006F56F4 /* xcode.md */; };
 		18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6F5042657D35D006F56F4 /* ViewControllerDemo1.m */; };
@@ -112,6 +114,9 @@
 		18796A53266F5EE600473C30 /* test1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = test1.xib; sourceTree = "<group>"; };
 		18796A56266F5FE200473C30 /* TestXIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXIB.h; sourceTree = "<group>"; };
 		18796A57266F5FE200473C30 /* TestXIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXIB.m; sourceTree = "<group>"; };
+		18796A83266F7FBD00473C30 /* XIBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XIBViewController.h; sourceTree = "<group>"; };
+		18796A84266F7FBD00473C30 /* XIBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIBViewController.m; sourceTree = "<group>"; };
+		18796A85266F7FBD00473C30 /* XIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
 		18F6F4D92653E196006F56F4 /* CPP_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPP_Demo.h; sourceTree = "<group>"; };
 		18F6F4DA2653E196006F56F4 /* CPP_Demo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPP_Demo.mm; sourceTree = "<group>"; };
 		18F6F4F52657A886006F56F4 /* xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = xcode.md; sourceTree = "<group>"; };
@@ -268,6 +273,9 @@
 				18796A53266F5EE600473C30 /* test1.xib */,
 				18796A56266F5FE200473C30 /* TestXIB.h */,
 				18796A57266F5FE200473C30 /* TestXIB.m */,
+				18796A83266F7FBD00473C30 /* XIBViewController.h */,
+				18796A84266F7FBD00473C30 /* XIBViewController.m */,
+				18796A85266F7FBD00473C30 /* XIBViewController.xib */,
 			);
 			path = vc2;
 			sourceTree = "<group>";
@@ -396,6 +404,7 @@
 				18796955266B551E00473C30 /* ScrollViewViewController.xib in Resources */,
 				18F6F54D26676EE3006F56F4 /* 6.jpg in Resources */,
 				187969C5266DAECE00473C30 /* B_ViewController.xib in Resources */,
+				18796A87266F7FBD00473C30 /* XIBViewController.xib in Resources */,
 				1879692F2669ECCA00473C30 /* back.png in Resources */,
 				1879693B2669F02300473C30 /* add.png in Resources */,
 				18F6F550266771E6006F56F4 /* test.txt in Resources */,
@@ -429,6 +438,7 @@
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
 				187969402669F36000473C30 /* KeyboardViewController.m in Sources */,
 				18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */,
+				18796A86266F7FBD00473C30 /* XIBViewController.m in Sources */,
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
 				187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */,
