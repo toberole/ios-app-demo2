@@ -19,6 +19,8 @@
 
 #import "CacheViewController.h"
 #import "XIBViewController.h"
+#import "TestViewController.h"
+#import "MessageForwardDemoViewController.h"
 
 @interface ViewController ()
 
@@ -167,8 +169,15 @@
 //    vc = [[CacheViewController alloc]init];
 //    [self.navigationController pushViewController:vc animated:YES];
     
-    vc = [[XIBViewController alloc]init];
+//    vc = [[XIBViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    
+//    vc = [[TestViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:YES];
+//
+    vc = [[MessageForwardDemoViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+    
     
 }
 

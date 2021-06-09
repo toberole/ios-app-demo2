@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		180ACFDF2643C77E00319B95 /* readme-1.md in Resources */ = {isa = PBXBuildFile; fileRef = 180ACFDE2643C77E00319B95 /* readme-1.md */; };
+		1859D4792670C2C30052D10A /* TestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4782670C2C30052D10A /* TestMessage.m */; };
+		1859D47D2670C70D0052D10A /* BackupTestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D47C2670C70D0052D10A /* BackupTestMessage.m */; };
 		185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFA9F2636979A0051E8A5 /* AppDelegate.m */; };
 		185DFAA62636979A0051E8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAA52636979A0051E8A5 /* ViewController.m */; };
 		185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAA72636979A0051E8A5 /* Main.storyboard */; };
@@ -15,6 +17,12 @@
 		185DFAAE2636979B0051E8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAAC2636979B0051E8A5 /* LaunchScreen.storyboard */; };
 		185DFAB12636979B0051E8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAB02636979B0051E8A5 /* main.m */; };
 		185DFB1F263904730051E8A5 /* oc.md in Resources */ = {isa = PBXBuildFile; fileRef = 185DFB1E263904730051E8A5 /* oc.md */; };
+		186D6CD82670A2140079DB6B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6CD62670A2140079DB6B /* TestViewController.m */; };
+		186D6CD92670A2140079DB6B /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D6CD72670A2140079DB6B /* TestViewController.xib */; };
+		186D6CDD2670B2310079DB6B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6CDC2670B2310079DB6B /* YYWeakProxy.m */; };
+		186D6CE12670B5F00079DB6B /* WeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6CE02670B5F00079DB6B /* WeakTimerTarget.m */; };
+		186D6CE62670BC0A0079DB6B /* MessageForwardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6CE42670BC0A0079DB6B /* MessageForwardDemoViewController.m */; };
+		186D6CE72670BC0A0079DB6B /* MessageForwardDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D6CE52670BC0A0079DB6B /* MessageForwardDemoViewController.xib */; };
 		1879692F2669ECCA00473C30 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879692E2669ECCA00473C30 /* back.png */; };
 		187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969322669ED0500473C30 /* ViewControllerDemo2.m */; };
 		1879693B2669F02300473C30 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879693A2669F02300473C30 /* add.png */; };
@@ -64,6 +72,10 @@
 
 /* Begin PBXFileReference section */
 		180ACFDE2643C77E00319B95 /* readme-1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "readme-1.md"; sourceTree = "<group>"; };
+		1859D4772670C2C30052D10A /* TestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMessage.h; sourceTree = "<group>"; };
+		1859D4782670C2C30052D10A /* TestMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMessage.m; sourceTree = "<group>"; };
+		1859D47B2670C70D0052D10A /* BackupTestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackupTestMessage.h; sourceTree = "<group>"; };
+		1859D47C2670C70D0052D10A /* BackupTestMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackupTestMessage.m; sourceTree = "<group>"; };
 		185DFA9B2636979A0051E8A5 /* ios-app-demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DFA9E2636979A0051E8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185DFA9F2636979A0051E8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +87,16 @@
 		185DFAAF2636979B0051E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185DFAB02636979B0051E8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185DFB1E263904730051E8A5 /* oc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = oc.md; sourceTree = "<group>"; };
+		186D6CD52670A2140079DB6B /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		186D6CD62670A2140079DB6B /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		186D6CD72670A2140079DB6B /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		186D6CDB2670B2310079DB6B /* YYWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		186D6CDC2670B2310079DB6B /* YYWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		186D6CDF2670B5F00079DB6B /* WeakTimerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakTimerTarget.h; sourceTree = "<group>"; };
+		186D6CE02670B5F00079DB6B /* WeakTimerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakTimerTarget.m; sourceTree = "<group>"; };
+		186D6CE32670BC0A0079DB6B /* MessageForwardDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardDemoViewController.h; sourceTree = "<group>"; };
+		186D6CE42670BC0A0079DB6B /* MessageForwardDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardDemoViewController.m; sourceTree = "<group>"; };
+		186D6CE52670BC0A0079DB6B /* MessageForwardDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageForwardDemoViewController.xib; sourceTree = "<group>"; };
 		1879692E2669ECCA00473C30 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		187969312669ED0500473C30 /* ViewControllerDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo2.h; sourceTree = "<group>"; };
 		187969322669ED0500473C30 /* ViewControllerDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo2.m; sourceTree = "<group>"; };
@@ -276,6 +298,20 @@
 				18796A83266F7FBD00473C30 /* XIBViewController.h */,
 				18796A84266F7FBD00473C30 /* XIBViewController.m */,
 				18796A85266F7FBD00473C30 /* XIBViewController.xib */,
+				186D6CD52670A2140079DB6B /* TestViewController.h */,
+				186D6CD62670A2140079DB6B /* TestViewController.m */,
+				186D6CD72670A2140079DB6B /* TestViewController.xib */,
+				186D6CDB2670B2310079DB6B /* YYWeakProxy.h */,
+				186D6CDC2670B2310079DB6B /* YYWeakProxy.m */,
+				186D6CDF2670B5F00079DB6B /* WeakTimerTarget.h */,
+				186D6CE02670B5F00079DB6B /* WeakTimerTarget.m */,
+				186D6CE32670BC0A0079DB6B /* MessageForwardDemoViewController.h */,
+				186D6CE42670BC0A0079DB6B /* MessageForwardDemoViewController.m */,
+				186D6CE52670BC0A0079DB6B /* MessageForwardDemoViewController.xib */,
+				1859D4772670C2C30052D10A /* TestMessage.h */,
+				1859D4782670C2C30052D10A /* TestMessage.m */,
+				1859D47B2670C70D0052D10A /* BackupTestMessage.h */,
+				1859D47C2670C70D0052D10A /* BackupTestMessage.m */,
 			);
 			path = vc2;
 			sourceTree = "<group>";
@@ -405,6 +441,7 @@
 				18F6F54D26676EE3006F56F4 /* 6.jpg in Resources */,
 				187969C5266DAECE00473C30 /* B_ViewController.xib in Resources */,
 				18796A87266F7FBD00473C30 /* XIBViewController.xib in Resources */,
+				186D6CD92670A2140079DB6B /* TestViewController.xib in Resources */,
 				1879692F2669ECCA00473C30 /* back.png in Resources */,
 				1879693B2669F02300473C30 /* add.png in Resources */,
 				18F6F550266771E6006F56F4 /* test.txt in Resources */,
@@ -414,6 +451,7 @@
 				185DFB1F263904730051E8A5 /* oc.md in Resources */,
 				185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */,
 				187969BE266DAEB800473C30 /* A_ViewController.xib in Resources */,
+				186D6CE72670BC0A0079DB6B /* MessageForwardDemoViewController.xib in Resources */,
 				18F6F5202664DF38006F56F4 /* html1.html in Resources */,
 				18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */,
 				180ACFDF2643C77E00319B95 /* readme-1.md in Resources */,
@@ -430,18 +468,24 @@
 			files = (
 				18796959266B686500473C30 /* DemoBean1.m in Sources */,
 				18796954266B551E00473C30 /* ScrollViewViewController.m in Sources */,
+				186D6CD82670A2140079DB6B /* TestViewController.m in Sources */,
 				185DFAA62636979A0051E8A5 /* ViewController.m in Sources */,
 				185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */,
 				18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */,
+				186D6CDD2670B2310079DB6B /* YYWeakProxy.m in Sources */,
 				185DFAB12636979B0051E8A5 /* main.m in Sources */,
 				187969D6266DE5FA00473C30 /* MyView_1.m in Sources */,
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
+				186D6CE62670BC0A0079DB6B /* MessageForwardDemoViewController.m in Sources */,
 				187969402669F36000473C30 /* KeyboardViewController.m in Sources */,
 				18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */,
+				1859D4792670C2C30052D10A /* TestMessage.m in Sources */,
 				18796A86266F7FBD00473C30 /* XIBViewController.m in Sources */,
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
+				1859D47D2670C70D0052D10A /* BackupTestMessage.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
 				187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */,
+				186D6CE12670B5F00079DB6B /* WeakTimerTarget.m in Sources */,
 				187969BD266DAEB800473C30 /* A_ViewController.m in Sources */,
 				187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
