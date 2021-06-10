@@ -12,6 +12,7 @@
 		1859D47D2670C70D0052D10A /* BackupTestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D47C2670C70D0052D10A /* BackupTestMessage.m */; };
 		1859D4872671A48D0052D10A /* TestMessagex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4862671A48D0052D10A /* TestMessagex.m */; };
 		1859D48B2671D2EF0052D10A /* DemoBean2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D48A2671D2EF0052D10A /* DemoBean2.m */; };
+		1859D48F2671F4C80052D10A /* DemoBean2+DemoBean2_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D48E2671F4C80052D10A /* DemoBean2+DemoBean2_C.m */; };
 		185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFA9F2636979A0051E8A5 /* AppDelegate.m */; };
 		185DFAA62636979A0051E8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAA52636979A0051E8A5 /* ViewController.m */; };
 		185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAA72636979A0051E8A5 /* Main.storyboard */; };
@@ -82,6 +83,8 @@
 		1859D4862671A48D0052D10A /* TestMessagex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMessagex.m; sourceTree = "<group>"; };
 		1859D4892671D2EF0052D10A /* DemoBean2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean2.h; sourceTree = "<group>"; };
 		1859D48A2671D2EF0052D10A /* DemoBean2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean2.m; sourceTree = "<group>"; };
+		1859D48D2671F4C80052D10A /* DemoBean2+DemoBean2_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoBean2+DemoBean2_C.h"; sourceTree = "<group>"; };
+		1859D48E2671F4C80052D10A /* DemoBean2+DemoBean2_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DemoBean2+DemoBean2_C.m"; sourceTree = "<group>"; };
 		185DFA9B2636979A0051E8A5 /* ios-app-demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DFA9E2636979A0051E8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185DFA9F2636979A0051E8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 				18796958266B686500473C30 /* DemoBean1.m */,
 				1859D4892671D2EF0052D10A /* DemoBean2.h */,
 				1859D48A2671D2EF0052D10A /* DemoBean2.m */,
+				1859D48D2671F4C80052D10A /* DemoBean2+DemoBean2_C.h */,
+				1859D48E2671F4C80052D10A /* DemoBean2+DemoBean2_C.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -505,6 +510,7 @@
 				18796A4E266F322200473C30 /* CacheViewController.m in Sources */,
 				18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */,
 				18F6F5A52669E914006F56F4 /* BaseViewController.m in Sources */,
+				1859D48F2671F4C80052D10A /* DemoBean2+DemoBean2_C.m in Sources */,
 				18F6F51B2664DD1F006F56F4 /* HtmlViewController.m in Sources */,
 				18796A58266F5FE200473C30 /* TestXIB.m in Sources */,
 				187969D1266DD7F900473C30 /* MyView.m in Sources */,

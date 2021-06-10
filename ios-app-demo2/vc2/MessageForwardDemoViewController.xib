@@ -24,13 +24,21 @@
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="test-1"/>
                 </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1c-sP-r8S">
+                    <rect key="frame" x="20" y="114" width="374" height="30"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="test-2"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="qMN-fz-cYm" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="3jc-ch-FyG"/>
+                <constraint firstItem="m1c-sP-r8S" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="M8y-sb-rKQ"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="qMN-fz-cYm" secondAttribute="trailing" constant="20" id="QaE-5L-WKe"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="m1c-sP-r8S" secondAttribute="trailing" constant="20" id="X4A-JE-uKY"/>
                 <constraint firstItem="qMN-fz-cYm" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="b7p-xX-2Jv"/>
+                <constraint firstItem="m1c-sP-r8S" firstAttribute="top" secondItem="qMN-fz-cYm" secondAttribute="bottom" constant="20" id="tbu-f6-O76"/>
             </constraints>
             <point key="canvasLocation" x="142" y="134"/>
         </view>
