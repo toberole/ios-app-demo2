@@ -10,6 +10,8 @@
 		180ACFDF2643C77E00319B95 /* readme-1.md in Resources */ = {isa = PBXBuildFile; fileRef = 180ACFDE2643C77E00319B95 /* readme-1.md */; };
 		1859D4792670C2C30052D10A /* TestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4782670C2C30052D10A /* TestMessage.m */; };
 		1859D47D2670C70D0052D10A /* BackupTestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D47C2670C70D0052D10A /* BackupTestMessage.m */; };
+		1859D4872671A48D0052D10A /* TestMessagex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4862671A48D0052D10A /* TestMessagex.m */; };
+		1859D48B2671D2EF0052D10A /* DemoBean2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D48A2671D2EF0052D10A /* DemoBean2.m */; };
 		185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFA9F2636979A0051E8A5 /* AppDelegate.m */; };
 		185DFAA62636979A0051E8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAA52636979A0051E8A5 /* ViewController.m */; };
 		185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAA72636979A0051E8A5 /* Main.storyboard */; };
@@ -76,6 +78,10 @@
 		1859D4782670C2C30052D10A /* TestMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMessage.m; sourceTree = "<group>"; };
 		1859D47B2670C70D0052D10A /* BackupTestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackupTestMessage.h; sourceTree = "<group>"; };
 		1859D47C2670C70D0052D10A /* BackupTestMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackupTestMessage.m; sourceTree = "<group>"; };
+		1859D4852671A48D0052D10A /* TestMessagex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMessagex.h; sourceTree = "<group>"; };
+		1859D4862671A48D0052D10A /* TestMessagex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMessagex.m; sourceTree = "<group>"; };
+		1859D4892671D2EF0052D10A /* DemoBean2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBean2.h; sourceTree = "<group>"; };
+		1859D48A2671D2EF0052D10A /* DemoBean2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean2.m; sourceTree = "<group>"; };
 		185DFA9B2636979A0051E8A5 /* ios-app-demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DFA9E2636979A0051E8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185DFA9F2636979A0051E8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -312,6 +318,8 @@
 				1859D4782670C2C30052D10A /* TestMessage.m */,
 				1859D47B2670C70D0052D10A /* BackupTestMessage.h */,
 				1859D47C2670C70D0052D10A /* BackupTestMessage.m */,
+				1859D4852671A48D0052D10A /* TestMessagex.h */,
+				1859D4862671A48D0052D10A /* TestMessagex.m */,
 			);
 			path = vc2;
 			sourceTree = "<group>";
@@ -334,6 +342,8 @@
 				18F6F59C2668DA39006F56F4 /* SingleTonDemo.m */,
 				18796957266B686500473C30 /* DemoBean1.h */,
 				18796958266B686500473C30 /* DemoBean1.m */,
+				1859D4892671D2EF0052D10A /* DemoBean2.h */,
+				1859D48A2671D2EF0052D10A /* DemoBean2.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -476,6 +486,7 @@
 				185DFAB12636979B0051E8A5 /* main.m in Sources */,
 				187969D6266DE5FA00473C30 /* MyView_1.m in Sources */,
 				18F6F55D26677C0E006F56F4 /* Person.m in Sources */,
+				1859D48B2671D2EF0052D10A /* DemoBean2.m in Sources */,
 				186D6CE62670BC0A0079DB6B /* MessageForwardDemoViewController.m in Sources */,
 				187969402669F36000473C30 /* KeyboardViewController.m in Sources */,
 				18796949266A005E00473C30 /* GestureRecognizerViewController.m in Sources */,
@@ -484,6 +495,7 @@
 				18F6F5062657D35D006F56F4 /* ViewControllerDemo1.m in Sources */,
 				1859D47D2670C70D0052D10A /* BackupTestMessage.m in Sources */,
 				18F6F56226677C97006F56F4 /* Person+Student.m in Sources */,
+				1859D4872671A48D0052D10A /* TestMessagex.m in Sources */,
 				187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */,
 				186D6CE12670B5F00079DB6B /* WeakTimerTarget.m in Sources */,
 				187969BD266DAEB800473C30 /* A_ViewController.m in Sources */,
