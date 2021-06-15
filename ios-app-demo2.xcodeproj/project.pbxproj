@@ -13,6 +13,8 @@
 		1859D4872671A48D0052D10A /* TestMessagex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4862671A48D0052D10A /* TestMessagex.m */; };
 		1859D48B2671D2EF0052D10A /* DemoBean2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D48A2671D2EF0052D10A /* DemoBean2.m */; };
 		1859D48F2671F4C80052D10A /* DemoBean2+DemoBean2_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D48E2671F4C80052D10A /* DemoBean2+DemoBean2_C.m */; };
+		1859D49426735EC30052D10A /* NSConditionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D49226735EC30052D10A /* NSConditionDemoViewController.m */; };
+		1859D49526735EC30052D10A /* NSConditionDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1859D49326735EC30052D10A /* NSConditionDemoViewController.xib */; };
 		185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFA9F2636979A0051E8A5 /* AppDelegate.m */; };
 		185DFAA62636979A0051E8A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DFAA52636979A0051E8A5 /* ViewController.m */; };
 		185DFAA92636979A0051E8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DFAA72636979A0051E8A5 /* Main.storyboard */; };
@@ -85,6 +87,9 @@
 		1859D48A2671D2EF0052D10A /* DemoBean2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBean2.m; sourceTree = "<group>"; };
 		1859D48D2671F4C80052D10A /* DemoBean2+DemoBean2_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoBean2+DemoBean2_C.h"; sourceTree = "<group>"; };
 		1859D48E2671F4C80052D10A /* DemoBean2+DemoBean2_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DemoBean2+DemoBean2_C.m"; sourceTree = "<group>"; };
+		1859D49126735EC30052D10A /* NSConditionDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemoViewController.h; sourceTree = "<group>"; };
+		1859D49226735EC30052D10A /* NSConditionDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemoViewController.m; sourceTree = "<group>"; };
+		1859D49326735EC30052D10A /* NSConditionDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSConditionDemoViewController.xib; sourceTree = "<group>"; };
 		185DFA9B2636979A0051E8A5 /* ios-app-demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DFA9E2636979A0051E8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185DFA9F2636979A0051E8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -323,6 +328,9 @@
 				1859D47C2670C70D0052D10A /* BackupTestMessage.m */,
 				1859D4852671A48D0052D10A /* TestMessagex.h */,
 				1859D4862671A48D0052D10A /* TestMessagex.m */,
+				1859D49126735EC30052D10A /* NSConditionDemoViewController.h */,
+				1859D49226735EC30052D10A /* NSConditionDemoViewController.m */,
+				1859D49326735EC30052D10A /* NSConditionDemoViewController.xib */,
 			);
 			path = vc2;
 			sourceTree = "<group>";
@@ -470,6 +478,7 @@
 				18F6F5202664DF38006F56F4 /* html1.html in Resources */,
 				18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */,
 				180ACFDF2643C77E00319B95 /* readme-1.md in Resources */,
+				1859D49526735EC30052D10A /* NSConditionDemoViewController.xib in Resources */,
 				18796A54266F5EE600473C30 /* test1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +516,7 @@
 				187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
 				187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */,
+				1859D49426735EC30052D10A /* NSConditionDemoViewController.m in Sources */,
 				18796A4E266F322200473C30 /* CacheViewController.m in Sources */,
 				18F6F5A12669E8A5006F56F4 /* BaseNavigationController.m in Sources */,
 				18F6F5A52669E914006F56F4 /* BaseViewController.m in Sources */,
