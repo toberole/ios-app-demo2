@@ -43,6 +43,18 @@ PS:选arm64时需要最低支持5.1.1:
 2，如果想让app体积保持最小，则现阶段应该选择Valid architectures为armv64,这样Build Active Architecture Only选YES或NO就无所谓了
 
 
+iOS项目中引用多个第三方库引发冲突的解决方法：
+1、mkdir armv7：创建临时文件夹
+2、lipo libALMovie.a -thin armv7 -output armv7/armv7.a：取出armv7平台的包
+3、ar -t armv7/armv7.a：查看库中所包含的文件列表
+4、cd armv7 && ar xv armv7.a：解压出object file（即.o后缀文件）
+5、rm ALButton.o：找到冲突的包，删除掉（此步可以多次操作）
+6、cd … && ar rcs armv7.a armv7/*.o：重新打包object file
+多平台的SDK的话，需要多次操作第4步。操作完成后，合并多个平台的文件为一个.a文件：lipo -create armv7.a arm64.a -output new.a
+将修改好的文件， 拖拽到原文件夹下，替换原文件即可。
+
+
+
 
 
 

@@ -28,6 +28,7 @@
 		186D6CE12670B5F00079DB6B /* WeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6CE02670B5F00079DB6B /* WeakTimerTarget.m */; };
 		186D6CE62670BC0A0079DB6B /* MessageForwardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6CE42670BC0A0079DB6B /* MessageForwardDemoViewController.m */; };
 		186D6CE72670BC0A0079DB6B /* MessageForwardDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D6CE52670BC0A0079DB6B /* MessageForwardDemoViewController.xib */; };
+		18763FA3267C94F300078D83 /* Demo2Bean1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763FA2267C94F300078D83 /* Demo2Bean1.swift */; };
 		1879692F2669ECCA00473C30 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879692E2669ECCA00473C30 /* back.png */; };
 		187969332669ED0500473C30 /* ViewControllerDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 187969322669ED0500473C30 /* ViewControllerDemo2.m */; };
 		1879693B2669F02300473C30 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1879693A2669F02300473C30 /* add.png */; };
@@ -111,6 +112,8 @@
 		186D6CE32670BC0A0079DB6B /* MessageForwardDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardDemoViewController.h; sourceTree = "<group>"; };
 		186D6CE42670BC0A0079DB6B /* MessageForwardDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardDemoViewController.m; sourceTree = "<group>"; };
 		186D6CE52670BC0A0079DB6B /* MessageForwardDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageForwardDemoViewController.xib; sourceTree = "<group>"; };
+		18763FA1267C94F200078D83 /* ios-app-demo2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-app-demo2-Bridging-Header.h"; sourceTree = "<group>"; };
+		18763FA2267C94F300078D83 /* Demo2Bean1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2Bean1.swift; sourceTree = "<group>"; };
 		1879692E2669ECCA00473C30 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		187969312669ED0500473C30 /* ViewControllerDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo2.h; sourceTree = "<group>"; };
 		187969322669ED0500473C30 /* ViewControllerDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo2.m; sourceTree = "<group>"; };
@@ -221,6 +224,7 @@
 				18F6F56D26686CFD006F56F4 /* util */,
 				18F6F54B26676EB4006F56F4 /* test_files */,
 				18F6F51E2664DEAE006F56F4 /* html */,
+				18763FA0267C94B900078D83 /* demo2 */,
 				18F6F4D82653E16C006F56F4 /* demo1 */,
 				185DFB1C263904420051E8A5 /* vc1 */,
 				185DFA9E2636979A0051E8A5 /* AppDelegate.h */,
@@ -290,6 +294,15 @@
 				187969B6266BA69100473C30 /* app启动.md */,
 			);
 			path = doc;
+			sourceTree = "<group>";
+		};
+		18763FA0267C94B900078D83 /* demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				18763FA2267C94F300078D83 /* Demo2Bean1.swift */,
+				18763FA1267C94F200078D83 /* ios-app-demo2-Bridging-Header.h */,
+			);
+			path = demo2;
 			sourceTree = "<group>";
 		};
 		187969CE266DD7A100473C30 /* view */ = {
@@ -425,6 +438,7 @@
 				TargetAttributes = {
 					185DFA9A2636979A0051E8A5 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -493,6 +507,7 @@
 				18796959266B686500473C30 /* DemoBean1.m in Sources */,
 				18796954266B551E00473C30 /* ScrollViewViewController.m in Sources */,
 				186D6CD82670A2140079DB6B /* TestViewController.m in Sources */,
+				18763FA3267C94F300078D83 /* Demo2Bean1.swift in Sources */,
 				185DFAA62636979A0051E8A5 /* ViewController.m in Sources */,
 				185DFAA02636979A0051E8A5 /* AppDelegate.m in Sources */,
 				18F6F4DB2653E196006F56F4 /* CPP_Demo.mm in Sources */,
@@ -669,6 +684,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92KCLFU3AG;
@@ -680,6 +696,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.ios-app-demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-app-demo2/demo2/ios-app-demo2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -689,6 +708,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92KCLFU3AG;
@@ -700,6 +720,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.ios-app-demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-app-demo2/demo2/ios-app-demo2-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
