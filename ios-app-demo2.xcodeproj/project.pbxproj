@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		180ACFDF2643C77E00319B95 /* readme-1.md in Resources */ = {isa = PBXBuildFile; fileRef = 180ACFDE2643C77E00319B95 /* readme-1.md */; };
+		181E2F5926A6EDA500E7660F /* CppViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 181E2F5726A6EDA500E7660F /* CppViewController.mm */; };
+		181E2F5A26A6EDA500E7660F /* CppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181E2F5826A6EDA500E7660F /* CppViewController.xib */; };
+		181E2F5F26A6EEA700E7660F /* Cpp_Demo2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 181E2F5E26A6EEA700E7660F /* Cpp_Demo2.mm */; };
+		181E2F6426A6F89B00E7660F /* test_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 181E2F6326A6F89B00E7660F /* test_x.c */; };
 		1859D4792670C2C30052D10A /* TestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4782670C2C30052D10A /* TestMessage.m */; };
 		1859D47D2670C70D0052D10A /* BackupTestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D47C2670C70D0052D10A /* BackupTestMessage.m */; };
 		1859D4872671A48D0052D10A /* TestMessagex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D4862671A48D0052D10A /* TestMessagex.m */; };
@@ -79,6 +83,13 @@
 
 /* Begin PBXFileReference section */
 		180ACFDE2643C77E00319B95 /* readme-1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "readme-1.md"; sourceTree = "<group>"; };
+		181E2F5626A6EDA500E7660F /* CppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppViewController.h; sourceTree = "<group>"; };
+		181E2F5726A6EDA500E7660F /* CppViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CppViewController.mm; sourceTree = "<group>"; };
+		181E2F5826A6EDA500E7660F /* CppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CppViewController.xib; sourceTree = "<group>"; };
+		181E2F5D26A6EEA700E7660F /* Cpp_Demo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cpp_Demo2.h; sourceTree = "<group>"; };
+		181E2F5E26A6EEA700E7660F /* Cpp_Demo2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Cpp_Demo2.mm; sourceTree = "<group>"; };
+		181E2F6226A6F89B00E7660F /* test_x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_x.h; sourceTree = "<group>"; };
+		181E2F6326A6F89B00E7660F /* test_x.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test_x.c; sourceTree = "<group>"; };
 		1859D4772670C2C30052D10A /* TestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMessage.h; sourceTree = "<group>"; };
 		1859D4782670C2C30052D10A /* TestMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMessage.m; sourceTree = "<group>"; };
 		1859D47B2670C70D0052D10A /* BackupTestMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackupTestMessage.h; sourceTree = "<group>"; };
@@ -349,6 +360,9 @@
 				1859D49126735EC30052D10A /* NSConditionDemoViewController.h */,
 				1859D49226735EC30052D10A /* NSConditionDemoViewController.m */,
 				1859D49326735EC30052D10A /* NSConditionDemoViewController.xib */,
+				181E2F5626A6EDA500E7660F /* CppViewController.h */,
+				181E2F5726A6EDA500E7660F /* CppViewController.mm */,
+				181E2F5826A6EDA500E7660F /* CppViewController.xib */,
 			);
 			path = vc2;
 			sourceTree = "<group>";
@@ -375,6 +389,10 @@
 				1859D48A2671D2EF0052D10A /* DemoBean2.m */,
 				1859D48D2671F4C80052D10A /* DemoBean2+DemoBean2_C.h */,
 				1859D48E2671F4C80052D10A /* DemoBean2+DemoBean2_C.m */,
+				181E2F5D26A6EEA700E7660F /* Cpp_Demo2.h */,
+				181E2F5E26A6EEA700E7660F /* Cpp_Demo2.mm */,
+				181E2F6226A6F89B00E7660F /* test_x.h */,
+				181E2F6326A6F89B00E7660F /* test_x.c */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -498,6 +516,7 @@
 				18F6F5072657D35D006F56F4 /* ViewControllerDemo1.xib in Resources */,
 				180ACFDF2643C77E00319B95 /* readme-1.md in Resources */,
 				1859D49526735EC30052D10A /* NSConditionDemoViewController.xib in Resources */,
+				181E2F5A26A6EDA500E7660F /* CppViewController.xib in Resources */,
 				18796A54266F5EE600473C30 /* test1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +552,7 @@
 				1859D4872671A48D0052D10A /* TestMessagex.m in Sources */,
 				187969CA266DBDDA00473C30 /* LifeCycleViewController.m in Sources */,
 				186D6CE12670B5F00079DB6B /* WeakTimerTarget.m in Sources */,
+				181E2F5926A6EDA500E7660F /* CppViewController.mm in Sources */,
 				187969BD266DAEB800473C30 /* A_ViewController.m in Sources */,
 				187969DB266DE82100473C30 /* TableView_ViewController.m in Sources */,
 				18F6F59D2668DA39006F56F4 /* SingleTonDemo.m in Sources */,
@@ -547,6 +567,8 @@
 				187969D1266DD7F900473C30 /* MyView.m in Sources */,
 				187969C4266DAECE00473C30 /* B_ViewController.m in Sources */,
 				18F6F56B26678C2F006F56F4 /* CopyDemo.m in Sources */,
+				181E2F5F26A6EEA700E7660F /* Cpp_Demo2.mm in Sources */,
+				181E2F6426A6F89B00E7660F /* test_x.c in Sources */,
 				18F6F5672667801E006F56F4 /* Test_Protocol_Impl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

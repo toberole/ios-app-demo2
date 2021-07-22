@@ -21,6 +21,8 @@
 #import "XIBViewController.h"
 #import "TestViewController.h"
 #import "MessageForwardDemoViewController.h"
+#import "Cpp_Demo2.h"
+#import "test_x.h"
 
 @interface ViewController ()
 
@@ -84,6 +86,9 @@
     NSLog(@"ViewController viewDidLoad ......");
     
     UINib*nib = nil;
+    
+    Cpp_Demo2*cpp_demo2 = [[Cpp_Demo2 alloc]init];
+    test_xxx1();
     
     [self testXib];
     
